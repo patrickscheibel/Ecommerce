@@ -1,0 +1,86 @@
+/* Estilos globais */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+}
+
+header button {
+  background-color: #fff;
+  border: none;
+  color: #222;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 24px;
+}
+
+.banner button {
+  background-color: #222;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 200px;
+  margin-right: 1rem;
+}
+
+.product-info {
+  flex: 1;
+}
